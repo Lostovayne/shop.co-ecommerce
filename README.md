@@ -48,15 +48,14 @@ git clone https://github.com/DeusloVult/shop.co-ecommerce.git
 
 ## 🚀 Folder
 
--- Nombres de carpetas y archivos en Ingles
--- para crear archivos se usara nombre-dequetratada.ts o tsx => data-products.ts
--- se crearan las folders como agrupadores dentro de un (carpeta)
--- Manejar importaciones usando Autobarrel desde el folder principal
+- Nombres de carpetas y archivos en Ingles
+- para crear archivos se usara nombre-dequetratada.ts o tsx => data-products.ts
+- se crearan las folders como agrupadores dentro de un (carpeta)
+- Manejar importaciones usando Autobarrel desde el folder principal
 
 ## 📝 Contributing
 
--- Siempre antes de hacer una pr traerse todos los cambios de la rama dev `git pull origin/dev`
--- Usando una Pr Review (PR)
--- Creacion de Issue en caso de encontrar fallas o querer agregar funcionalidad
--- asignar los label requeridos a la issue
-<!-- -- new 2 -->
+- Siempre antes de hacer una pr traerse todos los cambios de la rama dev `git pull origin dev`
+- Usando una Pr Review (PR)
+- Creacion de Issue en caso de encontrar fallas o querer agregar funcionalidad
+- asignar los label requeridos a la issue
