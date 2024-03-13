@@ -24,6 +24,7 @@
 - [**Zustand**](https://github.com/pmndrs/zustand)
 - [**Node**](https://nodejs.org/en/)
 - [**NodeMailer**](https://nodemailer.com)
+- [**Figma**](https://www.figma.com/file/3mWN7pXpoSpWS4GuVxOA8F/E-commerce-Website-Template-(Freebie)-(Community)?type=design&node-id=20-2&mode=design&t=OhMHyqBvndrTCNnZ-0)
 
 ## 📚 Documentation
 
