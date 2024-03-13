@@ -28,23 +28,23 @@
 
 ## 📚 Documentation
 
--- Clonar el proyecto
+- Clonar el proyecto
 
 ```bash
 git clone https://github.com/DeusloVult/shop.co-ecommerce.git
 ```
 
--- Clonar lo del env.example en un archivo .env.local
+- Clonar lo del env.example en un archivo .env.local
 
--- Levantar el contenedor de docker en caso de usar la bd local `docker compose up -d`
+- Levantar el contenedor de docker en caso de usar la bd local `docker compose up -d`
 
--- caso contrario agregar la variable de entorno a la bd para Neon Tech
+- caso contrario agregar la variable de entorno a la bd para Neon Tech
 
--- Instalar los modulos `pnpm install`
+- Instalar los modulos `pnpm install`
 
--- Ejecutar `pnpm dlx prisma migrate dev --name init`
+- Ejecutar `pnpm dlx prisma migrate dev --name init`
 
--- Ejecutar `pnpm  dev`
+- Ejecutar `pnpm  dev`
 
 ## 🚀 Folder
 
