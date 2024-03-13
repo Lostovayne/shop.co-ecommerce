@@ -1,0 +1,60 @@
+<div align="center" >
+  <img src="resources/logo.jpg" height="180" width="auto" >
+<h1> Shop.co Ecommerce </h1>
+</div>
+
+## ⚙️ Stack
+
+- [**Next.js**](https://nextjs.org/)
+- [**Typescript**](https://www.typescriptlang.org/)
+- [**Tailwind**](https://tailwindcss.com/)
+- [**Prisma**](https://www.prisma.io/)
+- [**Docker**](https://www.docker.com/)
+- [**ShadCn**](https://shadcn.com/)
+- [**Vercel**](https://vercel.com/)
+- [**Clerk**](https://clerk.com/)
+- [**Playwright**](https://playwright.dev/)
+- [**Jest**](https://jestjs.io/)
+- [**Paypal**](https://www.paypal.com/)
+- [**Mercadopago**](https://www.mercadopago.com)
+- [**Swiper**](https://swiperjs.com/)
+- [**Cloudinary**](https://cloudinary.com/)
+- [**Postgresql**](https://www.postgresql.org/)
+- [**React PDF**](https://react-pdf.org/)
+- [**Zustand**](https://github.com/pmndrs/zustand)
+- [**Node**](https://nodejs.org/en/)
+- [**NodeMailer**](https://nodemailer.com)
+
+## 📚 Documentation
+
+-- Clonar el proyecto
+
+```bash
+git clone https://github.com/DeusloVult/shop.co-ecommerce.git
+```
+
+-- Clonar lo del env.example en un archivo .env.local
+
+-- Levantar el contenedor de docker en caso de usar la bd local `docker compose up -d`
+
+-- caso contrario agregar la variable de entorno a la bd para Neon Tech
+
+-- Instalar los modulos `pnpm install`
+
+-- Ejecutar `pnpm dlx prisma migrate dev --name init`
+
+-- Ejecutar `pnpm  dev`
+
+## 🚀 Folder
+
+-- Nombres de carpetas y archivos en Ingles
+-- para crear archivos se usara nombre-dequetratada.ts o tsx => data-products.ts
+-- se crearan las folders como agrupadores dentro de un (carpeta)
+-- Manejar importaciones usando Autobarrel desde el folder principal
+
+## 📝 Contributing
+
+-- Siempre antes de hacer una pr traerse todos los cambios de la rama dev `git pull origin/dev`
+-- Usando una Pr Review (PR)
+-- Creacion de Issue en caso de encontrar fallas o querer agregar funcionalidad
+-- asignar los label requeridos a la issue
