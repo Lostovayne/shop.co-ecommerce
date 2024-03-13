@@ -59,3 +59,4 @@ git clone https://github.com/DeusloVult/shop.co-ecommerce.git
 -- Usando una Pr Review (PR)
 -- Creacion de Issue en caso de encontrar fallas o querer agregar funcionalidad
 -- asignar los label requeridos a la issue
+-- Creando nueva rama dev-jhorky
