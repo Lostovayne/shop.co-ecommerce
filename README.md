@@ -28,34 +28,36 @@
 
 ## 📚 Documentation
 
--- Clonar el proyecto
+- Clonar el proyecto
 
 ```bash
 git clone https://github.com/DeusloVult/shop.co-ecommerce.git
 ```
 
--- Clonar lo del env.example en un archivo .env.local
+- Clonar lo del env.example en un archivo .env.local
 
--- Levantar el contenedor de docker en caso de usar la bd local `docker compose up -d`
+- Levantar el contenedor de docker en caso de usar la bd local `docker compose up -d`
 
--- caso contrario agregar la variable de entorno a la bd para Neon Tech
+-- caso contrario agregar la variable de entorno a la bd para Neon Tech `DATABASE_URL=`
 
--- Instalar los modulos `pnpm install`
+- Instalar los modulos `pnpm install`
 
--- Ejecutar `pnpm dlx prisma migrate dev --name init`
+- Ejecutar `pnpm dlx prisma migrate dev --name init`
 
--- Ejecutar `pnpm  dev`
+- Ejecutar `pnpm  dev`
 
 ## 🚀 Folder
 
--- Nombres de carpetas y archivos en Ingles
--- para crear archivos se usara nombre-dequetratada.ts o tsx => data-products.ts
--- se crearan las folders como agrupadores dentro de un (carpeta)
--- Manejar importaciones usando Autobarrel desde el folder principal
+- Nombres de carpetas y archivos en Ingles
+- para crear archivos se usara nombre-dequetratada.ts o tsx => data-products.ts
+- se crearan las folders como agrupadores dentro de un (carpeta)
+- Manejar importaciones usando Autobarrel desde el folder principal
 
 ## 📝 Contributing
 
--- Siempre antes de hacer una pr traerse todos los cambios de la rama dev `git pull origin/dev`
--- Usando una Pr Review (PR)
--- Creacion de Issue en caso de encontrar fallas o querer agregar funcionalidad
--- asignar los label requeridos a la issue
+- Siempre antes de hacer una pr traerse todos los cambios de la rama dev `git pull origin dev`
+- Usando una Pr Review (PR)
+- Creacion de Issue en caso de encontrar fallas o querer agregar funcionalidad
+- asignar los label requeridos a la issue
+
+## 📝 Comandos de Prisma
