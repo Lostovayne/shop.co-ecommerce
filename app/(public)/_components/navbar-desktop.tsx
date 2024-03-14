@@ -4,7 +4,7 @@ import Image from "next/image";
 export const NavbarDesktop = () => {
   return (
     <div className="flex items-center bg-white h-20">
-      <div className="flex justify-between items-center mx-auto w-full max-w-screen-xl">
+      <div className="flex justify-between items-center mx-auto w-full max-w-screen-xl max-2xl:max-w-screen-lg">
         <Image src="/logo.webp" alt="logo" width={120} height={60} />
         <nav className="">
           <ul className="flex items-center gap-5 font-normal text-base">
