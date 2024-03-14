@@ -24,7 +24,7 @@
 - [**Zustand**](https://github.com/pmndrs/zustand)
 - [**Node**](https://nodejs.org/en/)
 - [**NodeMailer**](https://nodemailer.com)
-- [**Figma**](https://www.figma.com/file/3mWN7pXpoSpWS4GuVxOA8F/E-commerce-Website-Template-(Freebie)-(Community)?type=design&node-id=20-2&mode=design&t=OhMHyqBvndrTCNnZ-0)
+- [**Figma**](<https://www.figma.com/file/3mWN7pXpoSpWS4GuVxOA8F/E-commerce-Website-Template-(Freebie)-(Community)?type=design&node-id=20-2&mode=design&t=OhMHyqBvndrTCNnZ-0>)
 
 ## 📚 Documentation
 
@@ -36,15 +36,31 @@ git clone https://github.com/DeusloVult/shop.co-ecommerce.git
 
 - Clonar lo del env.example en un archivo .env.local
 
-- Levantar el contenedor de docker en caso de usar la bd local `docker compose up -d`
+- Levantar el contenedor de docker en caso de usar la bd local
 
--- caso contrario agregar la variable de entorno a la bd para Neon Tech `DATABASE_URL=`
+```bash
+docker compose up -d
+```
 
-- Instalar los modulos `pnpm install`
+- caso contrario agregar la variable de entorno a la bd para Neon Tech `DATABASE_URL=""`
 
-- Ejecutar `pnpm dlx prisma migrate dev --name init`
+- Instalar los modulos
 
-- Ejecutar `pnpm  dev`
+```bash
+pnpm install
+```
+
+- Ejecutar los comandos
+
+```bash
+pnpm dlx prisma migrate dev --name name
+```
+
+- Ejecutar el comando para levantar el servidor
+
+```bash
+pnpm dev
+```
 
 ## 🚀 Folder
 
@@ -55,9 +71,31 @@ git clone https://github.com/DeusloVult/shop.co-ecommerce.git
 
 ## 📝 Contributing
 
-- Siempre antes de hacer una pr traerse todos los cambios de la rama dev `git pull origin dev`
+- Clonar el repositorio
+- Ejecutar el comando
+
+```bash
+git pull
+```
+
+- Moverse a la rama dev
+
+```bash
+git switch dev
+```
+
+- Crear una copia de esa rama con un nombre propio
+
+```bash
+git checkout -b <nombre>
+```
+
+- Siempre antes de hacer una pr traerse todos los cambios de la rama dev
+
+```bash
+git pull origin dev
+```
+
 - Usando una Pr Review (PR)
 - Creacion de Issue en caso de encontrar fallas o querer agregar funcionalidad
 - asignar los label requeridos a la issue
-
-## 📝 Comandos de Prisma
