@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../../app/globals.css";
-import { NavbarDesktop, NavbarMobile, OfferBar } from "./_components";
+import { Footer, NavbarDesktop, NavbarMobile, OfferBar } from "./_components";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,15 +20,16 @@ export default function RootLayout({
       <body className={inter.className}>
         <OfferBar />
         {/* Desktop */}
-        <div className="xl:block hidden" >
+        <div className="xl:block hidden">
           <NavbarDesktop />
         </div>
         {/* Mobile */}
-        <div className="block xl:hidden" >
+        <div className="block xl:hidden">
           <NavbarMobile />
         </div>
-
         {children}
+        {/* Footer */}
+        <Footer />
       </body>
     </html>
   );
