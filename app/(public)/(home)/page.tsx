@@ -4,6 +4,7 @@ const HomePage = () => {
   return (
     <div className="bg-red-50 min-h-screen">
       <HeroSection />
+      
     </div>
   );
 };
