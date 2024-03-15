@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Newsletter from "./newsletter";
 import Image from "next/image";
 //Icons
 import { RiFacebookFill, RiGithubFill, RiInstagramLine, RiTwitterXFill } from "react-icons/ri";
@@ -6,6 +7,7 @@ import { RiFacebookFill, RiGithubFill, RiInstagramLine, RiTwitterXFill } from "r
 export const Footer = () => {
   return (
     <footer className="relative bg-[#F0F0F0] px-4 py-6 h-auto xl:h-64">
+      <Newsletter />
       <div>
         <Image src="/logo.webp" alt="footer" width={120} height={60} className="object-cover" />
         <p className="mt-3 font-normal text-gray-500 text-sm">
