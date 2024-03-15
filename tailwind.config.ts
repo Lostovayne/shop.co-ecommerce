@@ -1,13 +1,13 @@
-import type { Config } from "tailwindcss"
+import type { Config } from "tailwindcss";
 
 const config = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
-	],
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+  ],
   prefix: "",
   theme: {
     container: {
@@ -19,7 +19,6 @@ const config = {
         "4xl": "2000px",
         "5xl": "2400px",
         "6xl": "2800px",
-        
       },
     },
     extend: {
@@ -63,7 +62,7 @@ const config = {
           "4xl": "1920px",
           "5xl": "2560px",
           "6xl": "3840px",
-        }
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -85,8 +84,18 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
     },
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+      "3xl": "1920px",
+      "4xl": "2560px",
+      "5xl": "3840px",
+    },
   },
   plugins: [require("tailwindcss-animate")],
-} satisfies Config
+} satisfies Config;
 
-export default config
+export default config;

@@ -1,6 +1,10 @@
 import { MenuItems } from "@/constant/menu-items";
 import Image from "next/image";
 
+import { RiSearchLine } from "react-icons/ri";
+import { RiShoppingCartLine } from "react-icons/ri";
+import { RiUserReceivedLine } from "react-icons/ri";
+
 export const NavbarDesktop = () => {
   return (
     <div className="flex items-center bg-white h-20">
@@ -19,7 +23,7 @@ export const NavbarDesktop = () => {
         </nav>
         {/* Search */}
         <div className="flex items-center bg-gray-100/80 px-2 rounded-2xl w-full max-w-96 h-9">
-          <Image src="/icons/search.svg" alt="search" width={20} height={20} />
+          <RiSearchLine className="text-gray-500 text-xl" />
           <input
             type="text"
             className="bg-transparent px-2 py-2 w-full placeholder:font-light text-sm placeholder:text-gray-400 placeholder:text-sm outline-none"
@@ -28,8 +32,8 @@ export const NavbarDesktop = () => {
         </div>
         {/* Cart and User */}
         <div className="flex items-center gap-2">
-          <Image src="/icons/cart.svg" alt="cart" width={20} height={20} className="cursor-pointer" />
-          <Image src="/icons/user.svg" alt="user" width={20} height={20} className="cursor-pointer" />
+         <RiShoppingCartLine className="text-gray-500 text-xl cursor-pointer"/>
+         <RiUserReceivedLine className="text-gray-500 text-xl cursor-pointer"/>
         </div>
       </div>
     </div>
