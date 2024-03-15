@@ -13,7 +13,7 @@ function Newsletter() {
       <div className="flex items-center w-[80%] md:w-[40%] flex-col gap-2">
         <div className="flex w-full gap-4 items-center justify-start bg-white px-4 py-2 rounded-2xl md:w-80">
           <GoMail className="bg-white text-2xl" />
-          <input type="text" name="" id="" placeholder="Enter your email address" className="w-full" />
+          <input type="text" name="" id="" placeholder="Enter your email address" className="w-full border-none" />
         </div>
         <Button className="bg-white w-full px-4 py-2 rounded-2xl text-black text-center font-lg hover:bg-slate-500 hover:text-white cursor-pointer md:w-80">
           Subscribe to Newsletter
