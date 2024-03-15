@@ -6,7 +6,7 @@ function Newsletter() {
   return (
     <div className="flex flex-col md:flex-row justify-around items-center bg-black md:justify-between h-[293px] md:h-[180px] xl:max-w-screen-xl max-2xl:max-w-screen-lg rounded-xl absolute top-[-90px] left-[20%] right-[20%]">
       <div className="flex items-center w-[80%] md:w-[60%] flex-col">
-        <h1 className="text-3xl w-full md:text-4xl font-extrabold text-white uppercase md:w-[80%] md:pl-4 text-center">
+        <h1 className="text-3xl text-center w-full md:text-4xl font-extrabold text-white uppercase md:w-[80%] md:pl-4 md:text-start ">
           Stay up to date about our latest offers
         </h1>
       </div>
