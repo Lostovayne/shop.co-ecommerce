@@ -3,7 +3,7 @@ import { MarksBar } from "../_components/marks-bar";
 
 const HomePage = () => {
   return (
-    <div className="bg-red-50 px-4 min-h-screen">
+    <div className="bg-red-50 min-h-screen">
       <HeroSection />
       <MarksBar/>
     </div>
