@@ -1,15 +1,13 @@
 import { MenuItems } from "@/constant/menu-items";
 import Image from "next/image";
 
-import { RiSearchLine } from "react-icons/ri";
-import { RiShoppingCartLine } from "react-icons/ri";
-import { RiUserReceivedLine } from "react-icons/ri";
+import { RiSearchLine, RiShoppingCartLine, RiUserReceivedLine } from "react-icons/ri";
 
 export const NavbarDesktop = () => {
   return (
     <div className="flex items-center bg-white h-20">
       <div className="flex justify-between items-center mx-auto w-full max-w-screen-xl max-2xl:max-w-screen-lg">
-        <Image src="/logo.webp" alt="logo" width={120} height={60} />
+        <Image src="/logo.webp" alt="logo" width={140} height={70} />
         <nav className="">
           <ul className="flex items-center gap-5 font-normal text-base">
             {MenuItems.map((item) => {
@@ -22,7 +20,7 @@ export const NavbarDesktop = () => {
           </ul>
         </nav>
         {/* Search */}
-        <div className="flex items-center bg-gray-100/80 px-2 rounded-2xl w-full max-w-96 h-9">
+        <div className="flex items-center bg-gray-100/80 px-2.5 rounded-2xl w-full max-w-96 h-9">
           <RiSearchLine className="text-gray-500 text-xl" />
           <input
             type="text"
