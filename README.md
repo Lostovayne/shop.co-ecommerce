@@ -1,101 +1,121 @@
 <div align="center" >
-  <img src="resources/logo.jpg" height="180" width="auto" >
+  <img src="resources/logo-readme.webp" height="250" width="auto" >
 <h1> Shop.co Ecommerce </h1>
 </div>
 
-## ⚙️ Stack
+## 🦾 Tech Stack
 
-- [**Next.js**](https://nextjs.org/)
-- [**Typescript**](https://www.typescriptlang.org/)
-- [**Tailwind**](https://tailwindcss.com/)
-- [**Prisma**](https://www.prisma.io/)
-- [**Docker**](https://www.docker.com/)
-- [**ShadCn**](https://shadcn.com/)
-- [**Vercel**](https://vercel.com/)
-- [**Clerk**](https://clerk.com/)
-- [**Playwright**](https://playwright.dev/)
-- [**Jest**](https://jestjs.io/)
-- [**Paypal**](https://www.paypal.com/)
-- [**Mercadopago**](https://www.mercadopago.com)
-- [**Swiper**](https://swiperjs.com/)
-- [**Cloudinary**](https://cloudinary.com/)
-- [**Postgresql**](https://www.postgresql.org/)
-- [**React PDF**](https://react-pdf.org/)
-- [**Zustand**](https://github.com/pmndrs/zustand)
-- [**Node**](https://nodejs.org/en/)
-- [**NodeMailer**](https://nodemailer.com)
-- [**Figma**](<https://www.figma.com/file/3mWN7pXpoSpWS4GuVxOA8F/E-commerce-Website-Template-(Freebie)-(Community)?type=design&node-id=20-2&mode=design&t=OhMHyqBvndrTCNnZ-0>)
+Here's a quick overview of the tech stack we use in our project:
 
-## 📚 Documentation
+### Frontend
+- [**Next.js**](https://nextjs.org/) - The React framework for production.
+- [**Typescript**](https://www.typescriptlang.org/) - Strongly typed programming language that builds on JavaScript.
+- [**Tailwind CSS**](https://tailwindcss.com/) - A utility-first CSS framework for rapid UI development.
+- [**Swiper**](https://swiperjs.com/) - Powerful and modern touch slider.
+- [**React PDF**](https://react-pdf.org/) - Display PDFs in your React application.
+- [**Zustand**](https://github.com/pmndrs/zustand) - A simple, fast and scalable bearbones state-management solution.
 
-- Clonar el proyecto
+### Backend
+- [**Node.js**](https://nodejs.org/en/) - JavaScript runtime for building fast server applications.
+- [**Prisma**](https://www.prisma.io/) - Next-generation ORM for Node.js and TypeScript.
+- [**PostgreSQL**](https://www.postgresql.org/) - The World's Most Advanced Open Source Relational Database.
+- [**NodeMailer**](https://nodemailer.com) - Module for Node.js applications to allow easy email sending.
 
-```bash
-git clone https://github.com/DeusloVult/shop.co-ecommerce.git
-```
+### DevOps and Deployment
+- [**Docker**](https://www.docker.com/) - Platform for developing, shipping, and running applications.
+- [**Vercel**](https://vercel.com/) - Hosting and serverless backend services for web applications.
 
-- Clonar lo del env.example en un archivo .env.local
+### Testing
+- [**Jest**](https://jestjs.io/) - Delightful JavaScript Testing Framework.
+- [**Playwright**](https://playwright.dev/) - Browser automation library to enable cross-browser web testing.
 
-- Levantar el contenedor de docker en caso de usar la bd local
+### Design
+- [**Figma**](https://www.figma.com/) - Online UI design and prototyping tool.
 
-```bash
-docker compose up -d
-```
+### Payment Processing
+- [**Paypal**](https://www.paypal.com/) - Online payment system.
+- [**MercadoPago**](https://www.mercadopago.com) - Latin American payment platform.
 
-- caso contrario agregar la variable de entorno a la bd para Neon Tech `DATABASE_URL=""`
+### Media Management
+- [**Cloudinary**](https://cloudinary.com/) - Cloud service that offers a solution to a web application's entire image management pipeline.
 
-- Instalar los modulos
+### Miscellaneous
+- [**Clerk**](https://clerk.com/) - User management and authentication for modern applications.
+- [**ShadCn**](https://shadcn.com/) - (If ShadCn is a custom tool or library, you might want to provide more information or remove it if it's not publicly known or relevant to the project).
 
-```bash
-pnpm install
-```
+## 📘 Documentation
 
-- Ejecutar los comandos
+### Setting up the project
 
-```bash
-pnpm dlx prisma migrate dev --name name
-```
+To get started with the project, follow these steps:
 
-- Ejecutar el comando para levantar el servidor
+1. Clone the project repository:
+    ```bash
+    git clone https://github.com/DeusloVult/shop.co-ecommerce.git
+    ```
+2. Copy the contents from `env.example` into a new file named `.env.local`.
 
-```bash
-pnpm dev
-```
+3. If you are using a local database, start the Docker container:
+    ```bash
+    docker compose up -d
+    ```
+   Alternatively, if you're connecting to an external database, specify the database connection string in your `.env.local` file:
+    ```plaintext
+    DATABASE_URL="your-database-connection-string"
+    ```
 
-## 🚀 Folder
+4. Install the project dependencies using `pnpm`:
+    ```bash
+    pnpm install
+    ```
 
-- Nombres de carpetas y archivos en Ingles
-- para crear archivos se usara nombre-dequetratada.ts o tsx => data-products.ts
-- se crearan las folders como agrupadores dentro de un (carpeta)
-- Manejar importaciones usando Autobarrel desde el folder principal
+5. Apply database migrations to set up the database schema:
+    ```bash
+    pnpm dlx prisma migrate dev --name init
+    ```
+
+6. Start the development server:
+    ```bash
+    pnpm dev
+    ```
+
+## 🚀 Folder Structure
+
+- Use English for naming folders and files.
+- For creating files, use the format `feature-name.ts` or `feature-name.tsx` (e.g., `data-products.ts`).
+- Create folders to group related files within a category (e.g., `components`, `utils`).
+- Manage imports using the Autobarrel extension for better organization and easier access from the main folder.
 
 ## 📝 Contributing
 
-- Clonar el repositorio
-- Ejecutar el comando
+If you wish to contribute to the project, please follow these guidelines:
 
-```bash
-git pull
-```
+1. Clone the repository.
+2. Fetch the latest updates from the main branch:
+    ```bash
+    git pull
+    ```
+3. Switch to the development branch:
+    ```bash
+    git switch dev
+    ```
+4. Create a new branch for your changes, using a descriptive name:
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+5. Always pull the latest changes from the `dev` branch before starting to work on a new feature:
+    ```bash
+    git pull origin dev
+    ```
+6. Contribute by opening a Pull Request (PR).
+7. If you encounter any bugs or would like to suggest new features, create an issue and assign the appropriate labels.
 
-- Moverse a la rama dev
+## 👨‍💻 Dummy Data
 
-```bash
-git switch dev
-```
+- The `data` folder is responsible for creating mock data for testing.
+- Each data file should be generated using `data-generator.ts` to ensure consistency.
+- Eventually, this dummy data will be replaced with actual data from the database.
 
-- Crear una copia de esa rama con un nombre propio
+## ✨ Contributors
 
-```bash
-git checkout -b <nombre>
-```
-
-- Siempre antes de hacer una pr traerse todos los cambios de la rama dev
-
-```bash
-git pull origin dev
-```
-
-- Usando una Pr Review (PR)
-- Creacion de Issue en caso de encontrar fallas o querer agregar funcionalidad
-- asignar los label requeridos a la issue
+[![Contribuidores](https://contrib.rocks/image?repo=Lostovayne/shop.co-ecommerce)](https://github.com/Lostovayne/shop.co-ecommerce/contributors)

@@ -1,10 +1,11 @@
-import { HeroSection } from "../_components/hero-section";
+import { HeroSection } from "../_components";
 import { MarksBar } from "../_components/marks-bar";
 import { CardProduct } from "../_components";
 
 const HomePage = () => {
   return (
-    <div className="min-h-screen">
+
+    <div className="h-full min-h-screen">
       <HeroSection />
       <MarksBar />
     </div>
@@ -12,4 +13,4 @@ const HomePage = () => {
 };
 export default HomePage;
 
-//xd
+
