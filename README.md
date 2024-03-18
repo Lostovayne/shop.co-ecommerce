@@ -99,3 +99,8 @@ git pull origin dev
 - Usando una Pr Review (PR)
 - Creacion de Issue en caso de encontrar fallas o querer agregar funcionalidad
 - asignar los label requeridos a la issue
+
+## 👨‍💻 Dummy data
+- La Carpeta data se encarga de la creacion de los datos de prueba
+- Cada Archivo se crea usando el data-generator.ts para la creacion de datos
+- La Data será remplazada luego por la correspondiente en la base de datos
