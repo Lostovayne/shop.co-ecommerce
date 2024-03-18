@@ -1,11 +1,12 @@
 import { HeroSection } from "../_components/hero-section";
 import { MarksBar } from "../_components/marks-bar";
+import { CardProduct } from "../_components";
 
 const HomePage = () => {
   return (
-    <div className="bg-red-50 min-h-screen">
+    <div className="min-h-screen">
       <HeroSection />
-      <MarksBar/>
+      <MarksBar />
     </div>
   );
 };
