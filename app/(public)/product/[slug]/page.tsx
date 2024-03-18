@@ -6,7 +6,7 @@ const ProductPage = () => {
 
 
   return (
-    <div>ProductPage</div>
+    <div>Pagina de producto</div>
   )
 }
 export default ProductPage
