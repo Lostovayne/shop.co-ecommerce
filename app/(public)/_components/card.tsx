@@ -1,9 +1,8 @@
-import React from "react";
-import Image from "next/image";
-import { RiStarFill, RiStarHalfFill, RiStarLine } from "react-icons/ri";
-import Link from "next/link";
-import { CardProp } from "@/interfaces";
 import { Card } from "@/components/ui/card";
+import { CardProp } from "@/interfaces";
+import Image from "next/image";
+import Link from "next/link";
+import { RiStarFill, RiStarHalfFill } from "react-icons/ri";
 
 /**
  * Render a card product with the given props.

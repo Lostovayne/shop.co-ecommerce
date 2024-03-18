@@ -1,9 +1,8 @@
-
 export interface Products {
   id: string;
   name: string;
-  color: color;
-  size: size;
+  color: Color[];
+  size: Size[];
   price: number;
   image: string[];
   quantity: number;
@@ -13,15 +12,15 @@ export interface Products {
   discount: number;
 }
 
-type color = [
-  'red',
-  'blue',
-  'green',
-];
+export enum Color {
+  Black = "black",
+  Blue = "blue",
+  Green = "green",
+}
 
-type size = [
-  'Small',
-  'Medium',
-  'Large',
-  "X-Large"
-]
+export enum Size {
+  Small = "Small",
+  Medium = "Medium",
+  Large = "Large",
+  XLarge = "X-Large",
+}
