@@ -104,3 +104,8 @@ git pull origin dev
 - La Carpeta data se encarga de la creacion de los datos de prueba
 - Cada Archivo se crea usando el data-generator.ts para la creacion de datos
 - La Data será remplazada luego por la correspondiente en la base de datos
+
+
+## ✨ Contributors
+
+[![Contribuidores](https://contrib.rocks/image?repo=Lostovayne/shop.co-ecommerce)](https://github.com/Lostovayne/shop.co-ecommerce/contributors)
