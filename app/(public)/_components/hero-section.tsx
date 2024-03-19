@@ -25,26 +25,23 @@ const Satoshi = localFont({
 
 /**
  * HeroSection component.
- * 
+ *
  * @returns JSX.Element
  */
 export const HeroSection = (): JSX.Element => {
   return (
-    <section
-      className={cn(
-        "w-full max-2xl:h-[calc(100vh-204px)] 2xl:h-[calc(100vh-210px)] mx-auto max-w-screen-xl max-2xl:max-w-screen-lg flex justify-between ",
-        Satoshi.className
-      )}
-    >
-      <HeroText />
-      <Image
-        src="/hero-Page.png"
-        alt="bg-hero-image"
-        width={1500}
-        height={1500}
-        priority
-        className="w-[50%] h-full object-cover"
-      />
+    <section className={cn(" bg-[#F2F0F1]", Satoshi.className)}>
+      <div className="flex md:flex-row flex-col justify-between mx-auto w-full max-w-screen-xl max-2xl:max-w-screen-lg max-2xl:h-[calc(100vh-204px)] 2xl:h-[calc(100vh-210px)]">
+        <HeroText />
+        <Image
+          src="/hero-Page.png"
+          alt="bg-hero-image"
+          width={1500}
+          height={1500}
+          priority
+          className="w-[50%] h-full object-contain"
+        />
+      </div>
     </section>
   );
 };
