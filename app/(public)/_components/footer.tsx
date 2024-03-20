@@ -1,10 +1,10 @@
 import { Button } from "@/components/ui/button";
-import Newsletter from "./newsletter";
 import Image from "next/image";
+import Newsletter from "./newsletter";
 //Icons
 import { RiFacebookFill, RiGithubFill, RiInstagramLine, RiTwitterXFill } from "react-icons/ri";
 
-export const Footer = () => {
+export const Footer = (): JSX.Element => {
   return (
     <footer className="relative bg-[#F0F0F0] px-4 py-6 h-auto">
       <Newsletter />
