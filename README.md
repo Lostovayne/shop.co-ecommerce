@@ -116,6 +116,6 @@ If you wish to contribute to the project, please follow these guidelines:
 - Each data file should be generated using `data-generator.ts` to ensure consistency.
 - Eventually, this dummy data will be replaced with actual data from the database.
 
-## ✨ Contributors
+<!-- ## ✨ Contributors
 
-[![Contribuidores](https://contrib.rocks/image?repo=Lostovayne/shop.co-ecommerce)](https://github.com/Lostovayne/shop.co-ecommerce/contributors)
+[![Contribuidores](https://contrib.rocks/image?repo=Lostovayne/shop.co-ecommerce)](https://github.com/Lostovayne/shop.co-ecommerce/contributors) -->
