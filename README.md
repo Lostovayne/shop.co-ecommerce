@@ -119,3 +119,4 @@ If you wish to contribute to the project, please follow these guidelines:
 <!-- ## ✨ Contributors
 
 [![Contribuidores](https://contrib.rocks/image?repo=Lostovayne/shop.co-ecommerce)](https://github.com/Lostovayne/shop.co-ecommerce/contributors) -->
+
