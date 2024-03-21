@@ -9,3 +9,8 @@ describe("Should Footer components", () => {
     expect(footer).toBeInTheDocument();
   });
 });
+
+
+
+
+
