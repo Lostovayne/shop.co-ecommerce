@@ -3,7 +3,6 @@ import { Reviews } from "@/interfaces/card-reviews";
 import { CardReview } from "./card-review";
 import Autoplay from "embla-carousel-autoplay";
 
-
 import {
   Carousel,
   CarouselContent,
