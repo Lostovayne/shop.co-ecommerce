@@ -19,7 +19,7 @@ export interface Props {
 
 export const CardReview = ({ className = "", rating = 1, title = "", date = "August 15, 2024" }: Props) => {
   return (
-    <Card className={cn("w-full max-w-[400px] hover:shadow-md hover:cursor-pointer p-1 rounded-2xl  transition-all", className)}>
+    <Card className={cn("w-full  max-w-[400px] hover:shadow-md hover:cursor-pointer p-1 rounded-2xl  transition-all", className)}>
       <CardHeader className="pb-2">
         <CardDescription>
           <div className="flex gap-1 text-[#FFC633] text-base">

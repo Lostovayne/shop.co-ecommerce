@@ -10,6 +10,7 @@ const HomePage = () => {
   const products = DataProducts;
   const Reviews = DataReviews
 
+
   return (
     <div className="h-full min-h-screen">
       <HeroSection />
