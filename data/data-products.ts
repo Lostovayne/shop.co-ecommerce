@@ -8,7 +8,7 @@ export const DataProducts: Products[] = [
     color: [Color.Black, Color.Blue, Color.Green],
     size: [Size.Small, Size.Medium, Size.Large, Size.XLarge],
     price: 450,
-    image: ["/clothes/image-0-1.png", "/clothes/image-0-2.png", "/clothes/image-0-3.png"],
+    image: ["/clothes/product-0-1.png", "/clothes/product-0-2.png", "/clothes/product-0-3.png"],
     description: "Polera Tommy Hilfiger Negro - Calce Regular",
     quantity: 20,
     rating: 5,
