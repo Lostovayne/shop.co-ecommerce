@@ -8,8 +8,8 @@ export const CardProduct = (product: Products): JSX.Element => {
 
   return (
     <Link href={`/product/${slug}`}>
-      <div className="flex flex-col justify-start items-start w-full max-w-[18rem]">
-        <div className="bg-[#EAE4DD]/40 px-8 pt-12 rounded-2xl">
+      <div className="flex flex-col justify-start items-start w-full max-w-[18.5rem]">
+        <div className="bg-[#EAE4DD]/40 px-10 pt-12 rounded-2xl">
           <Image
             src={`${image[0]}`}
             alt={name}

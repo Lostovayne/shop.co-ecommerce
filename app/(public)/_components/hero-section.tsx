@@ -31,15 +31,15 @@ const Satoshi = localFont({
 export const HeroSection = (): JSX.Element => {
   return (
     <section className={cn(" bg-[#F2F0F1]", Satoshi.className)}>
-      <div className='flex flex-col md:flex-row justify-between items-center mx-auto p w-full max-w-screen-xl max-2xl:max-w-screen-lg'>
+      <div className="flex md:flex-row flex-col justify-between items-center mx-auto pt-10 w-full max-w-screen-xl max-2xl:max-w-screen-lg leading-8 tracking-widest">
         <HeroText />
         <Image
-          src='/hero-Page.png'
-          alt='bg-hero-image'
+          src="/hero-Page.png"
+          alt="bg-hero-image"
           width={1500}
           height={1500}
           priority
-          className='sm:w-[70%] md:w-[40%] 2xl:w-[45%] h-full object-contain m-auto md:mt-10 lg:mt-3'
+          className="m-auto md:mt-10 lg:mt-3 sm:w-[70%] md:w-[40%] 2xl:w-[45%] h-full object-contain"
         />
       </div>
     </section>

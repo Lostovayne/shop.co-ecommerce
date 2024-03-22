@@ -3,7 +3,7 @@ import { RiMailLine } from "react-icons/ri";
 
 function Newsletter() {
   return (
-    <div className="top-[-90px] right-[0.9rem] left-[0.9rem] absolute flex md:flex-row flex-col justify-evenly md:justify-between items-center bg-black 2xl:mx-auto rounded-xl max-2xl:max-w-screen-lg xl:max-w-screen-xl h-[285px] md:h-[180px]">
+    <div className="top-[-90px] right-[0.9rem] left-[0.9rem] absolute flex md:flex-row flex-col justify-evenly md:justify-between items-center bg-black 2xl:mx-auto rounded-xl max-2xl:max-w-screen-lg xl:max-w-screen-xl md:h-[180px] xl:h-[210px]">
       <div className="flex flex-col items-center w-[80%] md:w-[50%]">
         <h1 className="w-full md:w-[80%] font-extrabold text-3xl text-pretty text-white md:text-4xl md:text-start uppercase">
           Stay upto date about our latest offers
