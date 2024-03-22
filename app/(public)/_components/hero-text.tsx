@@ -17,25 +17,25 @@ export const HeroText = () => {
           THAT MATCHES <br />
           YOUR STYLE
         </h2>
-        <p className='font-normal sm:text-sm 2xl:text-base text-slate-500'>
+        <p className='py-3 font-normal text-slate-500 sm:text-sm 2xl:text-base'>
           Browse through our diverse range of meticulously crafted garments,
           designed to bring out your individuality and cater to your sense of
           style.
         </p>
         <Button
           variant='default'
-          className='bg-black py-7 rounded-[62px] min-w-full sm:min-w-96 md:min-w-60 font-light text-base lg:h-14'>
+          className='bg-black hover:bg-black/90 py-8 rounded-[62px] min-w-full sm:min-w-96 md:min-w-60 lg:h-14 font-light text-base'>
           Shop now
         </Button>
-        <div className='flex sm:flex-row flex-col gap-4 pt-3 md:pt-0 items-center justify-center m-auto sm:m-0'>
-          <div className='flex flex-row gap-4 items-center'>
+        <div className='flex sm:flex-row flex-col justify-center items-center gap-4 m-auto sm:m-0 pt-3 md:pt-0'>
+          <div className='flex flex-row items-center gap-4'>
             {HeroData.slice(0, 2).map((item, index) => (
               <div key={index} className='flex gap-5'>
                 <div className='flex flex-col gap-1'>
-                  <p className='font-bold text-2xl 2xl:text-4xl text-black'>
+                  <p className='font-bold text-2xl text-black 2xl:text-4xl'>
                     {item.count}
                   </p>
-                  <p className='font-normal text-sm 2xl:text-base text-slate-500'>
+                  <p className='font-normal text-slate-500 text-sm 2xl:text-base'>
                     {item.description}
                   </p>
                 </div>
@@ -47,10 +47,10 @@ export const HeroText = () => {
           </div>
           <div className='flex gap-4'>
             <div className='flex flex-col gap-1'>
-              <p className='font-bold text-2xl 2xl:text-4xl text-black'>
+              <p className='font-bold text-2xl text-black 2xl:text-4xl'>
                 {HeroData[2].count}
               </p>
-              <p className='font-normal text-sm 2xl:text-base text-slate-500'>
+              <p className='font-normal text-slate-500 text-sm 2xl:text-base'>
                 {HeroData[2].description}
               </p>
             </div>
@@ -66,10 +66,10 @@ export const HeroText = () => {
   {HeroData.map((item, index) => (
     <div key={item.description} className='flex gap-5'>
       <div className='flex flex-col gap-1'>
-        <p className='font-bold sm:text-2xl 2xl:text-4xl text-black'>
+        <p className='font-bold text-black sm:text-2xl 2xl:text-4xl'>
           {item.count}
         </p>
-        <p className='font-normal text-sm 2xl:text-base text-slate-500'>
+        <p className='font-normal text-slate-500 text-sm 2xl:text-base'>
           {item.description}
         </p>
       </div>
@@ -84,14 +84,14 @@ export const HeroText = () => {
 }
 
 {
-  /* <div className='flex sm:flex-row flex-col gap-5 pt-3 items-center justify-center m-auto'>
-  <div className='flex flex-row gap-3 items-center'>
+  /* <div className='flex sm:flex-row flex-col justify-center items-center gap-5 m-auto pt-3'>
+  <div className='flex flex-row items-center gap-3'>
     <div className='flex gap-5'>
       <div className='flex flex-col gap-1'>
-        <p className='font-bold sm:text-2xl 2xl:text-4xl text-black'>
+        <p className='font-bold text-black sm:text-2xl 2xl:text-4xl'>
           {HeroData[0].count}
         </p>
-        <p className='font-normal text-sm 2xl:text-base text-slate-500'>
+        <p className='font-normal text-slate-500 text-sm 2xl:text-base'>
           {HeroData[0].description}
         </p>
       </div>
@@ -101,10 +101,10 @@ export const HeroText = () => {
     </div>
     <div className='flex gap-5'>
       <div className='flex flex-col gap-1'>
-        <p className='font-bold sm:text-2xl 2xl:text-4xl text-black'>
+        <p className='font-bold text-black sm:text-2xl 2xl:text-4xl'>
           {HeroData[1].count}
         </p>
-        <p className='font-normal text-sm 2xl:text-base text-slate-500'>
+        <p className='font-normal text-slate-500 text-sm 2xl:text-base'>
           {HeroData[1].description}
         </p>
       </div>
@@ -115,10 +115,10 @@ export const HeroText = () => {
   </div>
   <div className='flex gap-5'>
     <div className='flex flex-col gap-1'>
-      <p className='font-bold sm:text-2xl 2xl:text-4xl text-black'>
+      <p className='font-bold text-black sm:text-2xl 2xl:text-4xl'>
         {HeroData[2].count}
       </p>
-      <p className='font-normal text-sm 2xl:text-base text-slate-500'>
+      <p className='font-normal text-slate-500 text-sm 2xl:text-base'>
         {HeroData[2].description}
       </p>
     </div>
