@@ -1,5 +1,5 @@
 import { Products } from "@/interfaces/product-interface";
-import { Color, Size } from "@/interfaces/product-interface";
+import { Color, Size } from "@/interfaces/enums";
 
 export const DataProducts: Products[] = [
   {

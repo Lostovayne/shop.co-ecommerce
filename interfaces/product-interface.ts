@@ -1,3 +1,5 @@
+import { Color, Size } from "./enums";
+
 export interface Products {
   id: string;
   name: string;
@@ -10,17 +12,4 @@ export interface Products {
   description: string;
   slug: string;
   discount: number;
-}
-
-export enum Color {
-  Black = "black",
-  Blue = "blue",
-  Green = "green",
-}
-
-export enum Size {
-  Small = "Small",
-  Medium = "Medium",
-  Large = "Large",
-  XLarge = "X-Large",
 }
