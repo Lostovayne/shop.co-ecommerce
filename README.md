@@ -116,7 +116,14 @@ If you wish to contribute to the project, please follow these guidelines:
 - Each data file should be generated using `data-generator.ts` to ensure consistency.
 - Eventually, this dummy data will be replaced with actual data from the database.
 
-<!-- ## ✨ Contributors
 
-[![Contribuidores](https://contrib.rocks/image?repo=Lostovayne/shop.co-ecommerce)](https://github.com/Lostovayne/shop.co-ecommerce/contributors) -->
+## 🦉 Seed Data
 
+```bash
+pnpm prisma:seed
+```
+
+## 🐛 Bug Report
+If you encounter any bugs or would like to suggest new features, create an issue and assign the appropriate labels.
+
+## 🔐 Kinde Auth
