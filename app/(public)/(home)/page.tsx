@@ -1,5 +1,5 @@
 import { DataProducts } from "@/data/data-products";
-import { HeroSection } from "../_components";
+import { FluidMosaic, HeroSection } from "../_components";
 import { MarksBar } from "../_components/marks-bar";
 import { SectionProducts } from "../_components/products-section";
 import SectionReview from "../_components/reviews-section";
@@ -17,8 +17,11 @@ const HomePage = () => {
       <MarksBar />
       <SectionProducts title={"New Arrivals"} products={products} />
       <SectionProducts title={"Top Selling"} products={products} />
+      {/* Fluid Mosaic */}
+      <FluidMosaic/>
       {/* Crear un slider */}
       <SectionReview title={"OUR HAPPY CUSTOMERS"} reviews={Reviews} />
+
     </div>
   );
 };

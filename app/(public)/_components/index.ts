@@ -5,4 +5,5 @@ export * from "./hero-section";
 export * from "./navbar-desktop";
 export * from "./navbar-mobile";
 export * from "./offer-bar";
+export * from "./fluid-mosaic"
 
