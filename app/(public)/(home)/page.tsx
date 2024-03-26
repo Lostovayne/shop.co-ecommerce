@@ -8,8 +8,7 @@ import { DataReviews } from "@/data/data.review";
 const HomePage = () => {
   // Server actions
   const products = DataProducts;
-  const Reviews = DataReviews
-
+  const Reviews = DataReviews;
 
   return (
     <div className="h-full min-h-screen">
@@ -18,10 +17,9 @@ const HomePage = () => {
       <SectionProducts title={"New Arrivals"} products={products} />
       <SectionProducts title={"Top Selling"} products={products} />
       {/* Fluid Mosaic */}
-      <FluidMosaic/>
+      <FluidMosaic />
       {/* Crear un slider */}
       <SectionReview title={"OUR HAPPY CUSTOMERS"} reviews={Reviews} />
-
     </div>
   );
 };
