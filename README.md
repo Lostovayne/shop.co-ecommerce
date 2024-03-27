@@ -127,3 +127,8 @@ pnpm prisma:seed
 If you encounter any bugs or would like to suggest new features, create an issue and assign the appropriate labels.
 
 ## 🔐 Kinde Auth
+
+
+## 👏 Thanks to all our contributors
+
+<img align="left" src="https://contributors-img.web.app/image?repo=Lostovayne/shop.co-ecommerce"/>
