@@ -1,4 +1,3 @@
-import { Card } from "@/components/ui/card";
 import { Products } from "@/interfaces";
 import Image from "next/image";
 import Link from "next/link";
@@ -9,14 +8,14 @@ export const CardProduct = (product: Products): JSX.Element => {
 
   return (
     <Link href={`/product/${slug}`}>
-      <div className="flex flex-col justify-start items-start w-full max-w-[13.5rem]">
-        <div className="bg-[#EAE4DD] rounded-2xl">
+      <div className="flex flex-col justify-start items-start w-full max-w-[18.5rem]">
+        <div className="bg-[#EAE4DD]/40 px-10 pt-12 rounded-2xl">
           <Image
             src={`${image[0]}`}
             alt={name}
-            width={500}
-            height={800}
-            className="w-[14rem] h-[14.5rem] object-contain"
+            width={1000}
+            height={1200}
+            className="w-[15rem] h-[17rem] object-contain"
           />
         </div>
         <div className="px-2">
